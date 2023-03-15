@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOG REGISTER</title>
+
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p{color: red;}
+
+</style>
+
+  <body>
+    
+<form>
+      <div>
+        <h1>Camper Information</h1>
+        <hr>
+        <!-- label for username -->
+        <label for="Camper name"><b>Camper name</b></label> 
+        <br></br>
+        <!-- input field for username -->
+        <input
+          type="text"
+          placeholder="Enter username"
+          name="username"
+          id="username"
+          required
+        />
+        <br>
+        <p>Gender</p>
+  <input type="radio" id="Male" name="fav_language" value="Male">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="fav_language" value="Female">
+  <label for="Female">Female</label><br>
+  
+      <br>
+        <label for="Breed"><b>Breed</b></label> 
+        <br></br>
+        <!-- input field for username -->
+        <input
+          type="text"
+          placeholder="Enter Breed."
+          name="breedname"
+          id="breedname"
+          required
+        />
+         <br><br>
+        <form action="/action_page.php">
+  <label for="birthday">Birthday:</label> <br>
+  <input type="date" id="birthday" name="birthday">
+  
+   <hr>
+   <h4>Owner Information</h4>
+   <hr>
+   <p>Full Name : </p>
+        <input
+          type="text"
+          placeholder="Enter firstname"
+          name="firstname"
+          id="firstname"
+          required
+        /> 
+        <br>
+ <label for="Last name"><b>First name : </b></label> 
+         <br>
+<input
+          type="text"
+          placeholder="Enter Lastname"
+          name="Lastname"
+          id="Lastname"
+          required
+        /> 
+        <br>
+ <label for="Last name"><b>Last name :</b></label> 
+ <br>
+  <p>Phone number : </p>
+<input
+          type="number"
+          placeholder="Enter Area code."
+          name="areacode"
+          id="areacode"
+          required
+        /> 
+<input
+          type="number"
+          placeholder="Enter Phonenumber."
+          name="phonenumber"
+          id="phonenumber"
+          required
+        /> 
+        <br>
+<label for="Areacode"><b>Area code</b></label>  &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="Phonenumber"><b>Phone number</b></label> 
+
+  <p>E-mail :</p>
+<input
+          type="email"
+          placeholder="Enter E-mail"
+          name="e-mail"
+          id="e-mail"
+          required
+        />
+        
+        <p>Address : </p>
+        
+<input
+          type="text"
+          placeholder="Enter Address"
+          name="address"
+          id="address"
+          required
+        /> 
+         <br>
+<label for="street address Line "><b>street address Line</b></label> 
+   <br>
+<input
+          type="text"
+          placeholder="Enter Address Line 2"
+          name="address"
+          id="address"
+          required
+        /> 
+         <br>
+<label for="street address"><b>street Adress Line 2</b></label> 
+   
+   <br>
+<input
+          type="text"
+          placeholder="Enter City"
+          name="city"
+          id="city"
+          required
+        /> 
+         <br>
+<label for="state - province"><b>State Province</b></label>     
+   <br>
+<input
+          type="text"
+          placeholder="Enter State/Province"
+          name="State/Province"
+          id="State/Provonce"
+          required
+        /> 
+         <br>
+<label for="State/Province"><b>state / province</b></label>
+
+ <br>
+<input
+          type="text"
+          placeholder="Postal / Zipcode"
+          name="Postal / Zipcode"
+          id="Postal / Zipcode"
+          required
+        /> 
+         <br>
+<label for="Postal / Zipcode"><b>postal / zipcode</b></label>
+        
+        <br>
+        <br>
+<label for="country">Select Country:</label>
+<select id="country" name="countrylist" form="countryform">
+    <option value=""></option>
+  <option value="Philippines">Philippines</option>
+  <option value="America">America</option>
+  <option value="Japan">Japan</option>
+  <option value="Korea">Korea</option>
+    <option value="China">China</option>
+    <option value="Thailand">Thailand</option>
+</select>
+ <hr>
+ <h1>Vet Records & Information</h1>
+ <hr>
+        <label for="Distemper Due"><b>Distemper due</b></label> 
+        <br>
+        <input
+          type="text"
+          placeholder="Enter Distemper due"
+          name="Due"
+          id="Due"
+          required
+        />
+        <br>
+                <label for="Rabies due"><b>Rabies due</b></label> 
+        <br>
+        <input
+          type="text"
+          placeholder="Enter Rabies due"
+          name="Due"
+          id="Due"
+          required
+        />
+<br>
+        <label for="Bordatella due"><b>Bordatella due</b></label> 
+        <br>
+        <input
+          type="text"
+          placeholder="Enter Bordatella due"
+          name="Due"
+          id="Due"
+          required
+        />
+        <br>
+        
+          <label for="Veterinarian Name"> <br><b>Veterinarian Name</b></label> 
+        <br>
+        <input
+          type="text"
+          placeholder=""
+          name="name"
+          id="name"
+          required
+        />
+      <br>
+ <label for="First name"><b>First name : </b></label>
+ 
+ <br> <br>
+        <input
+          type="text"
+          placeholder=""
+          name="name"
+          id="name"
+          required
+        />
+      <br>
+ <label for="Last name"><b>Last name : </b></label>
+
+ <br>
+  <p>Phone number : </p>
+<input
+          type="number"
+          placeholder="Enter Area code"
+          name="areacode"
+          id="areacode"
+          required
+        /> 
+<input
+          type="number"
+          placeholder="Enter Phonenumber"
+          name="phonenumber"
+          id="phonenumber"
+          required
+        /> 
+ <br>
+<label for="Areacode"><b>Area code</b></label>  &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="Phonenumber"><b>Phone number</b></label> 
+
+<p>Address : </p>
+        
+<input
+          type="text"
+          placeholder="Enter Address."
+          name="address"
+          id="address"
+          required
+        /> 
+         <br>
+<label for="street address Line "><b>street address Line</b></label> 
+   <br>
+<input
+          type="text"
+          placeholder="Enter Address Line 2"
+          name="address"
+          id="address"
+          required
+        /> 
+         <br>
+<label for="street address"><b>street Adress Line 2</b></label> 
+   
+   <br>
+<input
+          type="text"
+          placeholder="Enter City"
+          name="city"
+          id="city"
+          required
+        /> 
+         <br>
+<label for="state - province"><b>State Province</b></label>     
+   <br>
+<input
+          type="text"
+          placeholder="Enter State/Province"
+          name="State/Province"
+          id="State/Provonce"
+          required
+        /> 
+         <br>
+<label for="State/Province"><b>state / province</b></label>
+
+ <br>
+<input
+          type="number"
+          placeholder="Postal / Zipcode"
+          name="Postal / Zipcode"
+          id="Postal / Zipcode"
+          required
+        /> 
+         <br>
+<label for="Postal / Zipcode"><b>postal / zipcode</b></label>
+        
+        <br>
+        <br>
+<label for="country">Select Country:</label>
+<select id="country" name="countrylist" form="countryform">
+    <option value=""></option>
+  <option value="Philippines">Philippines</option>
+  <option value="America">America</option>
+  <option value="Japan">Japan</option>
+  <option value="Korea">Korea</option>
+    <option value="China">China</option>
+    <option value="Thailand">Thailand</option>
+</select>
+ <hr>
+ <p>Emergency Contact</p>
+ <hr>
+<p>Full Name : </p>
+        <input
+          type="text"
+          placeholder="Enter firstname"
+          name="firstname"
+          id="firstname"
+          required
+        /> 
+        <br>
+ <label for="Last name"><b>First name : </b></label> 
+         <br>
+<input
+          type="text"
+          placeholder="Enter Lastname"
+          name="Lastname"
+          id="Lastname"
+          required
+        /> 
+        <br>
+ <label for="Last name"><b>Last name :</b></label> 
+ <br>
+  <p>Phone number : </p>
+<input
+          type="number"
+          placeholder="Enter Area code"
+          name="areacode"
+          id="areacode"
+          required
+        /> 
+<input
+          type="number"
+          placeholder="Enter Phonenumber"
+          name="phonenumber"
+          id="phonenumber"
+          required
+        /> 
+        <br>
+<label for="Areacode"><b>Area code</b></label>  &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="Phonenumber"><b>Phone number</b></label> 
+
+      </div>
+
+    <br><center>
+      
+      
+
+      <button type="submit">SUBMIT</button> <href="sub.html"></href>
+      </center>
+      <div></div>
+      
+    </form>
+     
+     <script type = "text/javascript" src=""></script>
+  
+  
+  </head>
+ </body> 
+</html>
